@@ -162,9 +162,9 @@ const uint8_t _mcp2515_cnf[8][3] PROGMEM = {
 		0x80
 	},
 	// 1 Mbps
-	{	(1<<PHSEG21),
-		(1<<BTLMODE)|(1<<PHSEG11),
-		0
+	{	0x02,
+		0x90,
+		0x00
 	}
 };
 
